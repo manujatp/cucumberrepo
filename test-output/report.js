@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Selenium Project/TPGBDDProj/src/main/java/features/login.feature");
 formatter.feature({
   "line": 1,
   "name": "TPG Login Feature",
@@ -64,21 +64,21 @@ formatter.match({
   "location": "LoginStepDefinition.open_the_browser()"
 });
 formatter.result({
-  "duration": 3752142578,
+  "duration": 3265538484,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_is_already_on_Login_page()"
 });
 formatter.result({
-  "duration": 2648983140,
+  "duration": 2919610334,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.title_of_the_Login_Page_is_My_Account_Login_page()"
 });
 formatter.result({
-  "duration": 58843005,
+  "duration": 49046742,
   "status": "passed"
 });
 formatter.match({
@@ -95,35 +95,35 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_username_and_password(String,String)"
 });
 formatter.result({
-  "duration": 160845323,
+  "duration": 171588787,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_clicks_on_Login_button()"
 });
 formatter.result({
-  "duration": 4188653742,
+  "duration": 6539790068,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_on_home_page()"
 });
 formatter.result({
-  "duration": 31452151,
+  "duration": 63656942,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.logout_from_the_home_page()"
 });
 formatter.result({
-  "duration": 2258815927,
+  "duration": 2638433668,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.close_the_browser()"
 });
 formatter.result({
-  "duration": 57410544,
+  "duration": 67614701,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -251,21 +251,21 @@ formatter.match({
   "location": "LoginStepDefinition.open_the_browser()"
 });
 formatter.result({
-  "duration": 4359922245,
+  "duration": 5689878275,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_is_already_on_Post_Office_Login_Page()"
 });
 formatter.result({
-  "duration": 1919967596,
+  "duration": 5305913086,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.title_of_the_Login_Page_is_Post_Office_Login_page()"
 });
 formatter.result({
-  "duration": 74267854,
+  "duration": 61994081,
   "status": "passed"
 });
 formatter.match({
@@ -282,28 +282,28 @@ formatter.match({
   "location": "LoginStepDefinition.user_enters_login(String,String)"
 });
 formatter.result({
-  "duration": 166135988,
+  "duration": 193989918,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.user_clicks_on_Login_button_in_Post_Office_login_page()"
 });
 formatter.result({
-  "duration": 2203242325,
+  "duration": 1854300770,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.logout_from_the_post_office_home_page()"
 });
 formatter.result({
-  "duration": 1296254494,
+  "duration": 1163909927,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefinition.close_the_browser()"
 });
 formatter.result({
-  "duration": 98516737,
+  "duration": 98847261,
   "status": "passed"
 });
 });

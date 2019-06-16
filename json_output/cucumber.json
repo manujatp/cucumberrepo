@@ -12,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3752142578,
+              "duration": 3265538484,
               "status": "passed"
             },
             "comments": [
@@ -30,7 +30,7 @@
           },
           {
             "result": {
-              "duration": 2648983140,
+              "duration": 2919610334,
               "status": "passed"
             },
             "line": 7,
@@ -42,7 +42,7 @@
           },
           {
             "result": {
-              "duration": 58843005,
+              "duration": 49046742,
               "status": "passed"
             },
             "line": 8,
@@ -54,7 +54,7 @@
           },
           {
             "result": {
-              "duration": 160845323,
+              "duration": 171588787,
               "status": "passed"
             },
             "line": 9,
@@ -76,7 +76,7 @@
           },
           {
             "result": {
-              "duration": 4188653742,
+              "duration": 6539790068,
               "status": "passed"
             },
             "line": 10,
@@ -88,7 +88,7 @@
           },
           {
             "result": {
-              "duration": 31452151,
+              "duration": 63656942,
               "status": "passed"
             },
             "line": 11,
@@ -100,7 +100,7 @@
           },
           {
             "result": {
-              "duration": 2258815927,
+              "duration": 2638433668,
               "status": "passed"
             },
             "line": 12,
@@ -112,7 +112,7 @@
           },
           {
             "result": {
-              "duration": 57410544,
+              "duration": 67614701,
               "status": "passed"
             },
             "line": 13,
@@ -134,7 +134,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4359922245,
+              "duration": 5689878275,
               "status": "passed"
             },
             "line": 18,
@@ -146,7 +146,7 @@
           },
           {
             "result": {
-              "duration": 1919967596,
+              "duration": 5305913086,
               "status": "passed"
             },
             "line": 19,
@@ -158,7 +158,7 @@
           },
           {
             "result": {
-              "duration": 74267854,
+              "duration": 61994081,
               "status": "passed"
             },
             "line": 20,
@@ -170,7 +170,7 @@
           },
           {
             "result": {
-              "duration": 166135988,
+              "duration": 193989918,
               "status": "passed"
             },
             "line": 21,
@@ -196,7 +196,7 @@
           },
           {
             "result": {
-              "duration": 2203242325,
+              "duration": 1854300770,
               "status": "passed"
             },
             "line": 22,
@@ -208,7 +208,7 @@
           },
           {
             "result": {
-              "duration": 1296254494,
+              "duration": 1163909927,
               "status": "passed"
             },
             "line": 23,
@@ -220,7 +220,7 @@
           },
           {
             "result": {
-              "duration": 98516737,
+              "duration": 98847261,
               "status": "passed"
             },
             "line": 24,
@@ -237,6 +237,6 @@
     "description": "",
     "id": "tpg-login-feature",
     "keyword": "Feature",
-    "uri": "login.feature"
+    "uri": "C:/Selenium Project/TPGBDDProj/src/main/java/features/login.feature"
   }
 ]

@@ -12,7 +12,7 @@ Then user on home page
 Then logout from the home page
 Then close the browser
 
-#Data Driven with Examples keyword
+#Data Driven with Examples keyword 
 Scenario Outline: TPG PostOffice Login Test Scenario
 
 Given open the browser
@@ -23,6 +23,9 @@ Then user clicks on Login button in Post Office login page
 Then logout from the post office home page
 Then close the browser
 
+#Scenario will be executed two times with the two set values(adding values not even login details specified below this is the better way for multiple execution
 Examples:
    | username | password |
    | rajesh1978 | abcd1978 |
+   | manu1234 | asdf2345 |   
+   

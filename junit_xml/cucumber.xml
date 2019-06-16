@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="23.275453">
-<testcase classname="TPG Login Feature" name="TPG MyAccount Login Test Scenario" time="13.157146">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="30.084113">
+<testcase classname="TPG Login Feature" name="TPG MyAccount Login Test Scenario" time="15.71528">
 <system-out><![CDATA[Given open the browser......................................................passed
 When user is already on Login Page..........................................passed
 Then title of the Login Page is My Account Login page.......................passed
@@ -11,7 +11,7 @@ Then logout from the home page..............................................pass
 Then close the browser......................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="TPG Login Feature" name="TPG PostOffice Login Test Scenario" time="10.118307">
+<testcase classname="TPG Login Feature" name="TPG PostOffice Login Test Scenario" time="14.368833">
 <system-out><![CDATA[Given open the browser......................................................passed
 When user is already on Post Office Login Page..............................passed
 Then title of the Login Page is Post Office Login page......................passed
