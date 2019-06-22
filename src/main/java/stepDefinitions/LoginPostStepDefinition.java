@@ -34,7 +34,7 @@
 //	public void title_of_the_Post_Office_Login_Page_is_Post_Office_Login_Page(){
 //		Assert.assertEquals("Post Office Login page", driver.getTitle());
 //	}
-//	
+//	Data driven using DataTable keyword
 //	@Then("^user enters username and password for login$")
 //	public void user_enters_username_and_password_for_login(DataTable credentials){
 //		List<List<String>> data = credentials.raw();

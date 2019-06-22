@@ -1,24 +1,39 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="30.084113">
-<testcase classname="TPG Login Feature" name="TPG MyAccount Login Test Scenario" time="15.71528">
-<system-out><![CDATA[Given open the browser......................................................passed
-When user is already on Login Page..........................................passed
-Then title of the Login Page is My Account Login page.......................passed
-Then user enters "rajesh1978" and "abcd1978"................................passed
-Then user clicks on Login button............................................passed
-Then user on home page......................................................passed
-Then logout from the home page..............................................passed
-Then close the browser......................................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="0.074741">
+<testcase classname="Hooks Concept Feature" name="add cases to CapsuleCRM" time="0.07113">
+<system-out><![CDATA[Given user is on cases page.................................................passed
+When user fills the add case form...........................................passed
+Then case is added..........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="TPG Login Feature" name="TPG PostOffice Login Test Scenario" time="14.368833">
-<system-out><![CDATA[Given open the browser......................................................passed
-When user is already on Post Office Login Page..............................passed
-Then title of the Login Page is Post Office Login page......................passed
-Then user enters "rajesh1978" and "abcd1978" for login......................passed
-Then user clicks on Login button in Post Office login page..................passed
-Then logout from the post office home page..................................passed
-Then close the browser......................................................passed
+<testcase classname="Hooks Concept Feature" name="add people to capsule crm" time="0.000414">
+<system-out><![CDATA[Given user is on people page................................................passed
+When user fills add people form.............................................passed
+Then people is added........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Hooks Concept Feature" name="add task to capsule crm" time="0.000612">
+<system-out><![CDATA[Given user is on task page..................................................passed
+When user fills add task form...............................................passed
+Then task is added..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Hooks Concept Feature" name="add tags to capsule crm" time="0.001947">
+<system-out><![CDATA[Given user is on tag page...................................................passed
+When user fill add "Tester" form............................................passed
+Then tag is added...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Hooks Concept Feature" name="add tags to capsule crm 2" time="0.000336">
+<system-out><![CDATA[Given user is on tag page...................................................passed
+When user fill add "Analyst" form...........................................passed
+Then tag is added...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Hooks Concept Feature" name="add tags to capsule crm 3" time="0.000302">
+<system-out><![CDATA[Given user is on tag page...................................................passed
+When user fill add "Lead" form..............................................passed
+Then tag is added...........................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

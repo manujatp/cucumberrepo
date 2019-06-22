@@ -1,309 +1,428 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Selenium Project/TPGBDDProj/src/main/java/features/login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("C:/Selenium Project/TPGBDDProj/src/main/java/features/HooksConcept.feature");
 formatter.feature({
   "line": 1,
-  "name": "TPG Login Feature",
+  "name": "Hooks Concept Feature",
   "description": "",
-  "id": "tpg-login-feature",
+  "id": "hooks-concept-feature",
   "keyword": "Feature"
+});
+formatter.before({
+  "duration": 207645,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 3,
-  "name": "TPG MyAccount Login Test Scenario",
+  "name": "add cases to CapsuleCRM",
   "description": "",
-  "id": "tpg-login-feature;tpg-myaccount-login-test-scenario",
+  "id": "hooks-concept-feature;add-cases-to-capsulecrm",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
-  "comments": [
-    {
-      "line": 5,
-      "value": "#Simple Data Driven without Examples keyword"
-    }
-  ],
-  "line": 6,
-  "name": "open the browser",
+  "line": 4,
+  "name": "user is on cases page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 7,
-  "name": "user is already on Login Page",
+  "line": 5,
+  "name": "user fills the add case form",
   "keyword": "When "
 });
 formatter.step({
-  "line": 8,
-  "name": "title of the Login Page is My Account Login page",
+  "line": 6,
+  "name": "case is added",
   "keyword": "Then "
 });
-formatter.step({
+formatter.match({
+  "location": "HooksStepDefinition.user_is_on_cases_page()"
+});
+formatter.result({
+  "duration": 70753829,
+  "status": "passed"
+});
+formatter.match({
+  "location": "HooksStepDefinition.user_fills_the_add_case_form()"
+});
+formatter.result({
+  "duration": 58596,
+  "status": "passed"
+});
+formatter.match({
+  "location": "HooksStepDefinition.case_is_added()"
+});
+formatter.result({
+  "duration": 57457,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 52906,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 101831,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 63147,
+  "status": "passed"
+});
+formatter.scenario({
   "line": 9,
-  "name": "user enters \"rajesh1978\" and \"abcd1978\"",
-  "keyword": "Then "
+  "name": "add people to capsule crm",
+  "description": "",
+  "id": "hooks-concept-feature;add-people-to-capsule-crm",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 8,
+      "name": "@RegressionTest"
+    }
+  ]
 });
 formatter.step({
   "line": 10,
-  "name": "user clicks on Login button",
-  "keyword": "Then "
+  "name": "user is on people page",
+  "keyword": "Given "
 });
 formatter.step({
   "line": 11,
-  "name": "user on home page",
-  "keyword": "Then "
+  "name": "user fills add people form",
+  "keyword": "When "
 });
 formatter.step({
   "line": 12,
-  "name": "logout from the home page",
+  "name": "people is added",
   "keyword": "Then "
+});
+formatter.match({
+  "location": "HooksStepDefinition.user_is_on_people_page()"
+});
+formatter.result({
+  "duration": 88178,
+  "status": "passed"
+});
+formatter.match({
+  "location": "HooksStepDefinition.user_fills_add_people_form()"
+});
+formatter.result({
+  "duration": 58596,
+  "status": "passed"
+});
+formatter.match({
+  "location": "HooksStepDefinition.people_is_added()"
+});
+formatter.result({
+  "duration": 52337,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 49494,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 140516,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 15,
+  "name": "add task to capsule crm",
+  "description": "",
+  "id": "hooks-concept-feature;add-task-to-capsule-crm",
+  "type": "scenario",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "line": 14,
+      "name": "@SmokeTest"
+    }
+  ]
 });
 formatter.step({
-  "line": 13,
-  "name": "close the browser",
+  "line": 16,
+  "name": "user is on task page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 17,
+  "name": "user fills add task form",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 18,
+  "name": "task is added",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "LoginStepDefinition.open_the_browser()"
+  "location": "HooksStepDefinition.user_is_on_task_page()"
 });
 formatter.result({
-  "duration": 3265538484,
+  "duration": 93867,
   "status": "passed"
 });
 formatter.match({
-  "location": "LoginStepDefinition.user_is_already_on_Login_page()"
+  "location": "HooksStepDefinition.user_fills_add_task_form()"
 });
 formatter.result({
-  "duration": 2919610334,
+  "duration": 70543,
   "status": "passed"
 });
 formatter.match({
-  "location": "LoginStepDefinition.title_of_the_Login_Page_is_My_Account_Login_page()"
+  "location": "HooksStepDefinition.task_is_added()"
 });
 formatter.result({
-  "duration": 49046742,
+  "duration": 71111,
   "status": "passed"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "rajesh1978",
-      "offset": 13
-    },
-    {
-      "val": "abcd1978",
-      "offset": 30
-    }
-  ],
-  "location": "LoginStepDefinition.user_enters_username_and_password(String,String)"
-});
-formatter.result({
-  "duration": 171588787,
+formatter.after({
+  "duration": 65422,
   "status": "passed"
 });
-formatter.match({
-  "location": "LoginStepDefinition.user_clicks_on_Login_button()"
-});
-formatter.result({
-  "duration": 6539790068,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginStepDefinition.user_on_home_page()"
-});
-formatter.result({
-  "duration": 63656942,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginStepDefinition.logout_from_the_home_page()"
-});
-formatter.result({
-  "duration": 2638433668,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginStepDefinition.close_the_browser()"
-});
-formatter.result({
-  "duration": 67614701,
+formatter.after({
+  "duration": 170666,
   "status": "passed"
 });
 formatter.scenarioOutline({
-  "comments": [
-    {
-      "line": 15,
-      "value": "#Data Driven with Examples keyword"
-    }
-  ],
-  "line": 16,
-  "name": "TPG PostOffice Login Test Scenario",
+  "line": 21,
+  "name": "add tags to capsule crm",
   "description": "",
-  "id": "tpg-login-feature;tpg-postoffice-login-test-scenario",
+  "id": "hooks-concept-feature;add-tags-to-capsule-crm",
   "type": "scenario_outline",
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 18,
-  "name": "open the browser",
+  "line": 22,
+  "name": "user is on tag page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 19,
-  "name": "user is already on Post Office Login Page",
+  "line": 23,
+  "name": "user fill add \"\u003ctag\u003e\" form",
   "keyword": "When "
 });
 formatter.step({
-  "line": 20,
-  "name": "title of the Login Page is Post Office Login page",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 21,
-  "name": "user enters \"\u003cusername\u003e\" and \"\u003cpassword\u003e\" for login",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 22,
-  "name": "user clicks on Login button in Post Office login page",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 23,
-  "name": "logout from the post office home page",
-  "keyword": "Then "
-});
-formatter.step({
   "line": 24,
-  "name": "close the browser",
+  "name": "tag is added",
   "keyword": "Then "
 });
 formatter.examples({
   "line": 26,
   "name": "",
   "description": "",
-  "id": "tpg-login-feature;tpg-postoffice-login-test-scenario;",
+  "id": "hooks-concept-feature;add-tags-to-capsule-crm;",
   "rows": [
     {
       "cells": [
-        "username",
-        "password"
+        "tag"
       ],
       "line": 27,
-      "id": "tpg-login-feature;tpg-postoffice-login-test-scenario;;1"
+      "id": "hooks-concept-feature;add-tags-to-capsule-crm;;1"
     },
     {
       "cells": [
-        "rajesh1978",
-        "abcd1978"
+        "Tester"
       ],
       "line": 28,
-      "id": "tpg-login-feature;tpg-postoffice-login-test-scenario;;2"
+      "id": "hooks-concept-feature;add-tags-to-capsule-crm;;2"
+    },
+    {
+      "cells": [
+        "Analyst"
+      ],
+      "line": 29,
+      "id": "hooks-concept-feature;add-tags-to-capsule-crm;;3"
+    },
+    {
+      "cells": [
+        "Lead"
+      ],
+      "line": 30,
+      "id": "hooks-concept-feature;add-tags-to-capsule-crm;;4"
     }
   ],
   "keyword": "Examples"
 });
+formatter.before({
+  "duration": 83058,
+  "status": "passed"
+});
 formatter.scenario({
   "line": 28,
-  "name": "TPG PostOffice Login Test Scenario",
+  "name": "add tags to capsule crm",
   "description": "",
-  "id": "tpg-login-feature;tpg-postoffice-login-test-scenario;;2",
+  "id": "hooks-concept-feature;add-tags-to-capsule-crm;;2",
   "type": "scenario",
   "keyword": "Scenario Outline"
 });
 formatter.step({
-  "line": 18,
-  "name": "open the browser",
+  "line": 22,
+  "name": "user is on tag page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 19,
-  "name": "user is already on Post Office Login Page",
+  "line": 23,
+  "name": "user fill add \"Tester\" form",
+  "matchedColumns": [
+    0
+  ],
   "keyword": "When "
 });
 formatter.step({
-  "line": 20,
-  "name": "title of the Login Page is Post Office Login page",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 21,
-  "name": "user enters \"rajesh1978\" and \"abcd1978\" for login",
-  "matchedColumns": [
-    0,
-    1
-  ],
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 22,
-  "name": "user clicks on Login button in Post Office login page",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 23,
-  "name": "logout from the post office home page",
-  "keyword": "Then "
-});
-formatter.step({
   "line": 24,
-  "name": "close the browser",
+  "name": "tag is added",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "LoginStepDefinition.open_the_browser()"
+  "location": "HooksStepDefinition.user_is_on_tag_page()"
 });
 formatter.result({
-  "duration": 5689878275,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginStepDefinition.user_is_already_on_Post_Office_Login_Page()"
-});
-formatter.result({
-  "duration": 5305913086,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginStepDefinition.title_of_the_Login_Page_is_Post_Office_Login_page()"
-});
-formatter.result({
-  "duration": 61994081,
+  "duration": 84195,
   "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "rajesh1978",
-      "offset": 13
-    },
-    {
-      "val": "abcd1978",
-      "offset": 30
+      "val": "Tester",
+      "offset": 15
     }
   ],
-  "location": "LoginStepDefinition.user_enters_login(String,String)"
+  "location": "HooksStepDefinition.user_fill_add_form(String)"
 });
 formatter.result({
-  "duration": 193989918,
+  "duration": 1682204,
   "status": "passed"
 });
 formatter.match({
-  "location": "LoginStepDefinition.user_clicks_on_Login_button_in_Post_Office_login_page()"
+  "location": "HooksStepDefinition.tag_is_added()"
 });
 formatter.result({
-  "duration": 1854300770,
+  "duration": 41529,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 55751,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 89885,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 29,
+  "name": "add tags to capsule crm",
+  "description": "",
+  "id": "hooks-concept-feature;add-tags-to-capsule-crm;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 22,
+  "name": "user is on tag page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 23,
+  "name": "user fill add \"Analyst\" form",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 24,
+  "name": "tag is added",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "HooksStepDefinition.user_is_on_tag_page()"
+});
+formatter.result({
+  "duration": 61440,
   "status": "passed"
 });
 formatter.match({
-  "location": "LoginStepDefinition.logout_from_the_post_office_home_page()"
+  "arguments": [
+    {
+      "val": "Analyst",
+      "offset": 15
+    }
+  ],
+  "location": "HooksStepDefinition.user_fill_add_form(String)"
 });
 formatter.result({
-  "duration": 1163909927,
+  "duration": 105244,
   "status": "passed"
 });
 formatter.match({
-  "location": "LoginStepDefinition.close_the_browser()"
+  "location": "HooksStepDefinition.tag_is_added()"
 });
 formatter.result({
-  "duration": 98847261,
+  "duration": 44942,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 34133,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 100694,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 30,
+  "name": "add tags to capsule crm",
+  "description": "",
+  "id": "hooks-concept-feature;add-tags-to-capsule-crm;;4",
+  "type": "scenario",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 22,
+  "name": "user is on tag page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 23,
+  "name": "user fill add \"Lead\" form",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 24,
+  "name": "tag is added",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "HooksStepDefinition.user_is_on_tag_page()"
+});
+formatter.result({
+  "duration": 58026,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Lead",
+      "offset": 15
+    }
+  ],
+  "location": "HooksStepDefinition.user_fill_add_form(String)"
+});
+formatter.result({
+  "duration": 67129,
+  "status": "passed"
+});
+formatter.match({
+  "location": "HooksStepDefinition.tag_is_added()"
+});
+formatter.result({
+  "duration": 42667,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 32996,
   "status": "passed"
 });
 });
